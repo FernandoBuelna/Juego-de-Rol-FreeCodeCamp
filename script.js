@@ -83,7 +83,7 @@ const locations = [
   {
     name: "matar monstruo",
     "button text": ["Ir a la plaza del pueblo", "Ir a la plaza del pueblo", "Ir a la plaza del pueblo"],
-    "button functions": [goTown, goTown, goTown],
+    "button functions": [goTown, goTown, easterEgg],
     text: 'El monstruo grita "¡Arg!" mientras muere. Ganas puntos de experiencia y encuentras oro.'
   },
   {
@@ -334,4 +334,5 @@ function pick(guess) {
       lose();
     }
   }
+
 }
